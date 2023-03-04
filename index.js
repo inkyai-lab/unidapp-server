@@ -6,7 +6,7 @@ require('dotenv').config()
 const cors = require('cors')
 
 const allowedOrigins = [
-    'https://app-uniswaps.netlify.app',
+    'https://app-uniswaps.app',
 //     'http://127.0.0.1:5500',
 ]
 const corsOptions = {
